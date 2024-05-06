@@ -1,0 +1,1 @@
+This should be a **signed** commit using GPG.

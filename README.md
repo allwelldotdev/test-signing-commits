@@ -6,3 +6,11 @@ Configured git to sign all commits by default using the command below
 git config --global commit.gpgsign true
 ```
 All commits from here on are signed commits.
+
+**Now...** changed commit signing mode to ssh from gpg
+Also change git default commit sign from true (or automatic) to manual using the command below:
+```bash
+git config --global --unset commit.gpgsign
+```
+
+This commit is set to ssh signing but not signed.

@@ -15,3 +15,4 @@ git config --global --unset commit.gpgsign
 
 This commit is set to ssh signing but not signed.
 This commit is now signed with ssh.
+**Now...** configured git to sign all commits by default.
